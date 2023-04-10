@@ -1,6 +1,7 @@
 #### jmeter命令行的操作流程
 '''  
-eg: jmeter -n -t D:\code\doc\presure\create-customer.jmx -l test1.jtl  
+eg: jmeter -n -t D:\code\doc\presure\create-customer.jmx -l test1.jtl      
+分别代表文件路径和日志文件，可以导入到jmeter中下的观察结果树下进行使用。  
 eg: jmeter -n -t xx.jmx -l xxx.jtl -e -o xxxxempty_dict    
 说明：  
 1.xx.jmx是jmeter脚本  
@@ -8,7 +9,6 @@ eg: jmeter -n -t xx.jmx -l xxx.jtl -e -o xxxxempty_dict
 3.xxxxempty_dict是结果转换为的html文件  
 
 '''
-- 分别代表文件路径和日志文件，可以导入到jmeter中下的观察结果树下进行使用。
 
 #### 使用jmeter保存请求提盒相关数据
 - 方法一：
